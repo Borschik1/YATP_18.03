@@ -1,10 +1,12 @@
 #include <iostream>
 #include <list>
+#include <ctime>
 
 using namespace std;
 
 int main()
 {
+    srand(time(NULL));
     list <int> lst;
 
     int summ = 0;
